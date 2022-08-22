@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+</head>
+
+<body>
+
+
+    <div class="row">
+        <div class="col-md-4 col-lg-2">
+            <div class="list-drop">
+                <a href="index.html" class="list-group-item list-group-item-action ">Yazılım Dilleri</a>
+          <a href="ders1.html" class="list-group-item list-group-item-action ">Albüm Örneği</a>
+          <a href="ders2.html" class="list-group-item list-group-item-action">Hesaplarım</a>
+          <a href="ders3.html" class="list-group-item list-group-item-action">Özel Bir Husus</a>
+          <a href="ders4.html" class="list-group-item list-group-item-action">Bölümleme</a>
+          <a href="ders5.html" class="list-group-item list-group-item-action list-group-item-primary">Dropdown</a>
+            </div>
+        </div>
+        
+        <div class="col-md-8 col-lg-8">
+            <div class="container">
+                <br><br><br>
+                <h2>Dropdown menü</Menu>
+                </h2>
+                <div class="dropdown">
+                    <button type="button" class="dropdown-toggle btn-success btn" data-toggle="dropdown">Menü</button>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-header">
+                            Sepet Elemanları
+                        </div>
+                        <a href="#" class="dropdown-item">Ürün 1</a>
+                        <a href="#" class="dropdown-item">Ürün 2</a>
+                        <a href="#" class="dropdown-item">Ürün 3</a>
+                        <a href="#" class="dropdown-item">Ürün 4</a>
+                        <a href="#" class="dropdown-item">Ürün 5</a>
+                    </div>
+                </div>
+        
+                <br><br><br>
+        
+                <h2>Formlar</h2>
+        
+                <div class="col-md-6">
+        
+                    <form action="#">
+                        <div class="form-group">
+        
+                            <input type="text" class="form-control" id="firstName" placeholder="İsminiz.." required />
+                            <br>
+                            <input type="text" class="form-control" id="lastName" placeholder="Soyisminiz.." required />
+                            <br>
+                            <input type="email" class="form-control" id="mail" placeholder="Mailiniz.." required />
+                            <br>
+                            <input type="password" class="form-control" id="password" placeholder="Şifreniz.." required />
+                            <br>
+        
+                            <select class="form-control">
+        
+                                <option value="1">Lütfen bir il seçiniz</option>
+                                <option value="2">İstanbul</option>
+                                <option value="3">Ankara</option>
+                                <option value="4">İzmir</option>
+        
+                            </select>
+                            <br>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    Evli
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                                    checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Bekar   
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3"
+                                    checked>
+                                <label class="form-check-label" for="flexRadioDefault3">
+                                    Evlenmek İstiyor 
+                                </label>
+                            </div>
+        
+                            <br>
+                            <div class="form-check">
+                                <label form="term" class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" />
+                                    Okudum kabul ediyorum.
+                                </label>
+                            </div>
+                            <br>
+                            <button type="submit" class="btn btn-success">Sisteme Giriş</button>
+                        </div>
+        
+        
+                    </form>
+        
+        
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+</html>
